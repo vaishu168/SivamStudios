@@ -1,0 +1,8 @@
+.header-bg {
+    background: rgb(189,46,122);
+    background: linear-gradient(90deg, rgba(189,46,122,1) 0%, rgba(106,22,172,1) 100%);
+}
+
+.main-header-hldr ul li a {
+    color: #fff;
+}
