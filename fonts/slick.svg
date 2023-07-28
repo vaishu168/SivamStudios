@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20170731 at Fri Jul 28 19:53:26 2023
+ By Aleksey,,,
+</metadata>
+<defs>
+<font id="slick" horiz-adv-x="2048" >
+  <font-face 
+    font-family="slick"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="2048"
+    panose-1="2 0 5 9 0 0 0 0 0 0"
+    ascent="1920"
+    descent="-128"
+    bbox="148 148 1900 1900"
+    underline-thickness="0"
+    underline-position="0"
+    unicode-range="U+0061-2192"
+  />
+<missing-glyph 
+ />
+    <glyph glyph-name=".notdef" 
+ />
+    <glyph glyph-name=".notdef" 
+ />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" 
+ />
+    <glyph glyph-name="a" unicode="a" 
+d="M1900 1756v-512q0 -32 -20 -52t-52 -20h-512q-46 0 -68 44q-19 45 16 80l160 156q-168 156 -400 156q-115 0 -228 -44q-111 -49 -184 -128q-79 -73 -128 -184q-44 -113 -44 -228t44 -228q49 -111 128 -184q73 -79 184 -128q113 -44 228 -44q136 0 256 60q129 58 204 168
+q2 1 7.5 4.5t10.5 5.5t10 2q16 0 28 -12l156 -156q12 -12 12 -24q0 -8 -8 -24q-130 -155 -304 -236q-166 -80 -372 -80q-187 0 -340 68q-176 78 -280 188q-110 105 -188 280q-68 153 -68 340t68 340q78 176 188 280q105 110 280 188q153 68 340 68q168 0 324 -60
+q163 -69 280 -180l148 148q33 33 80 16q44 -22 44 -68z" />
+    <glyph glyph-name="bullet" unicode="&#x2022;" 
+d="M1900 1024q0 -249 -116 -440q-119 -201 -320 -320q-191 -116 -440 -116t-440 116q-201 119 -320 320q-116 191 -116 440t116 440q119 201 320 320q191 116 440 116t440 -116q201 -119 320 -320q116 -191 116 -440z" />
+    <glyph glyph-name="arrowleft" unicode="&#x2190;" 
+d="M1184 452l116 120q24 18 24 48q0 34 -24 52l-348 352l348 352q24 18 24 52q0 30 -24 48l-116 120q-20 20 -52 20q-28 0 -48 -20l-520 -520q-24 -24 -24 -52t24 -52l520 -520q20 -20 48 -20q32 0 52 20zM1900 1024q0 -249 -116 -440q-119 -201 -320 -320
+q-191 -116 -440 -116t-440 116q-201 119 -320 320q-116 191 -116 440t116 440q119 201 320 320q191 116 440 116t440 -116q201 -119 320 -320q116 -191 116 -440z" />
+    <glyph glyph-name="arrowright" unicode="&#x2192;" 
+d="M964 452l520 520q24 24 24 52t-24 52l-520 520q-20 20 -48 20q-32 0 -52 -20l-116 -120q-24 -18 -24 -48q0 -34 24 -52l348 -352l-348 -352q-24 -18 -24 -52q0 -30 24 -48l116 -120q20 -20 52 -20q28 0 48 20zM1900 1024q0 -249 -116 -440q-119 -201 -320 -320
+q-191 -116 -440 -116t-440 116q-201 119 -320 320q-116 191 -116 440t116 440q119 201 320 320q191 116 440 116t440 -116q201 -119 320 -320q116 -191 116 -440z" />
+  </font>
+</defs></svg>

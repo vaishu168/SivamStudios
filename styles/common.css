@@ -1,0 +1,223 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+.btn:focus {
+  box-shadow: none;
+}
+
+.main-bg {
+    background: rgb(189,46,122);
+    background: linear-gradient(90deg, rgba(189,46,122,1) 0%, rgba(106,22,172,1) 100%);
+}
+
+.main-header-hldr ul li a {
+    color: #fff;
+}
+
+.pt-md-90 {
+  padding-top: 90px
+}
+
+.pb-md-90 {
+  padding-bottom: 90px;
+}
+
+.main-banner
+{
+    padding-top:50px;
+
+}
+
+.main-banner h1 {
+    font-size: 40px;
+    font-weight: 400;   
+}
+
+.main-banner p {
+    font-size: 18px;
+    margin-top:15px;
+    font-weight: 300;
+}
+
+.main-banner .banner-buttons ul li {
+    border : 1px solid #fff;
+    border-radius: 30px;
+    margin-right: 10px;
+    transition: all 0.5s ease-in;
+    margin-bottom: 15px;
+}
+.main-banner .banner-buttons ul li a.btn { 
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.main-banner .banner-buttons ul li:hover {
+    background-color: #fff;
+
+}
+
+.main-banner .banner-buttons ul li:hover a{
+    color: #111;
+}
+.main-header-hldr img {
+  width: 100px;
+  height: auto;
+}
+.main-header-hldr.header-scrolled img {
+  width: 70px;
+}
+
+.changing-span {
+    /* Your styles for the <span> element here */
+  }
+  .changing-word-wrapper {
+    position: relative;
+}
+.is-invisible {
+  opacity: 0;
+}
+.is-invisible {
+  opacity: 1;
+}
+/* .changing-word-wrapper:after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: -10px;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .2);
+} */
+
+
+  /* Your custom styles for fadeIn and fadeOut animations if needed */
+  .fadeIn {
+    animation: fadeIn 1s linear;
+  }
+  
+  .fadeOut {
+    animation: fadeOut 1s linear;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .shivam-studio-features a {
+    text-decoration: none;
+  }
+.feature-hldr figure {
+  max-width: 60px;
+}
+.cus-box {
+    padding: 30px 0 24px;
+    border-radius: 8px;
+    background: #fff;
+    margin-bottom: 10px;
+    -moz-box-shadow: 0 0 15px 0 rgba(2, 3, 3, .1);
+    -webkit-box-shadow: 0 0 15px 0 rgba(2, 3, 3, .1);
+    box-shadow: 0 0 15px 0 rgba(2, 3, 3, .1);
+}
+.feature-hldr .feature-text {
+  color: #111;
+  text-transform: capitalize;
+}
+.custom-orders-hldr h3 {
+  font-size: 36px;
+}
+
+.custom-orders-hldr p {
+  font-size: 19px;
+  font-weight: 300;
+}
+.customise-button a {
+    font-size: 16px;
+    line-height: 3.125;
+    border: none;
+    border-radius: 25px;
+    padding: 0 40px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    background: rgb(189,46,122);
+    background: linear-gradient(90deg, rgba(189,46,122,1) 0%, rgba(106,22,172,1) 100%);
+    transition: all 0.5s ease-in;
+}
+.customise-button a:hover {
+  background: rgb(106,22,172,1);
+  background: linear-gradient(90deg, rgba(106,22,172,1) 0%,  rgba(189,46,122,1) 100%);
+}
+
+.cus-filter-slider {
+  position:relative;
+}
+.cus-filter-slider:after{
+  content: url("../images/filters/iphone_hldr.png");
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0.6);
+  transform: translate(-50%, -50%) scale(0.6);
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease
+}
+
+.cus-filter-slider .slick-dots {
+  bottom: -75px !important;
+}
+.cus-filter-slider .slick-dots li button {
+  background: #cbcbcb !important;
+}
+.cus-filter-slider .slick-dots li button:before {
+  content:""
+}
+.cus-filter-slider .slick-dots li.slick-active button {
+  background: rgb(189,46,122) !important;
+  background: linear-gradient(90deg, rgba(189,46,122,1) 0%, rgba(106,22,172,1) 100%) !important;
+}
+
+.shivam-stacs img {
+  width:50px;
+  height: 50px;
+}
+@media(min-width: 768px) {
+    .main-banner {
+        padding-top: 150px;
+        padding-bottom: 120px;
+    }
+    .main-header-hldr {
+        height: 100px;
+        transition: height 0.3s;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+    }
+
+    .header-scrolled {
+        box-shadow: 0 1px 5px rgba(0, 0, 0, .2); 
+    }
+    .shivam-studio-features {
+      margin-top: -70px
+    }
+}
